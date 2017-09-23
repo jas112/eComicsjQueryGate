@@ -1,0 +1,116 @@
+*{
+  /*outline: 1px dotted red;*/
+}
+
+body{
+  background: black;
+  width:100%;
+  height: 480px;
+  background-image: url(../images/ecomics_products_main.PNG);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.siteEntrance{
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+/*.gateDoor{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+#gate1Door2{
+  position: relative;
+  bottom: 979px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.gate3{
+  outline: 1px dotted lime;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 0;
+  left:0;
+}
+
+.gate2{
+  position: relative;
+  bottom: 1955px;
+  outline: 1px dotted yellow;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 0;
+  left:0;
+}
+
+.gate1{
+  position: relative;
+  bottom: 2934px;
+  outline: 1px dotted orange;
+  padding: 0px;
+  margin: 0px;
+  display: none;
+}
+
+#gate3Door2{
+  position: relative;
+  bottom: 975px;
+  padding: 0px;
+  margin: 0px;
+}*/
+
+.gate{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*#gate1{display: none;}*/
+#gate2{}
+#gate3{}
+
+#gate1Screen.not-showing{
+  opacity: 0;
+  transition: all 0.9s ease-in-out;
+}
+
+.doorContainer{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*.gate1{
+  position: relative;
+  bottom: 2886px;
+  z-index: 0;
+  padding: 0px;
+  margin: 0px;
+}*/
